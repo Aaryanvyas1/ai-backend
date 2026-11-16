@@ -1,2 +1,5 @@
-[tool.vercel]
-entrypoint = "backend.main:app"
+[project]
+name = "ai-backend"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = ["fastapi", "uvicorn", "pypdf", "python-dotenv", "groq", "pydantic"]
